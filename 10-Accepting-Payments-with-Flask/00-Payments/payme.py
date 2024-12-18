@@ -3,9 +3,9 @@ import stripe
 
 app = Flask(__name__)
 
-public_key = 'pk_test_6pRNASCoBOKtIshFeQd4XMUh'
+public_key = ''
 
-stripe.api_key = "sk_test_BQokikJOvBiI2HlWgH4olfQ2"
+stripe.api_key = ""
 
 @app.route('/')
 def index():
