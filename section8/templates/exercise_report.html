@@ -1,0 +1,19 @@
+{% extends 'exercise_layout.html' %}
+
+{% block content %}
+<div class="jumbotron">
+  <p>Let see how you performed!!</p>
+  <p>Username: {{username}}</p>
+  {% if isupper == False and islower == False and end_with_number == True %}
+    <p>Your username passed the 3 requirements!</p>
+  {% elif islower == True %}
+    <p>Your username doesn't have uppercase!</p>
+  {% elif isupper == True %}
+    <p>Your username doesn't have lowercase!</p>
+  {% elif end_with_number == False %}
+    <p>Your username doesn't end with number!</p>
+  {% else %}
+    <p>What?</p>
+  {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,51 @@
+h1{
+  color: blue;
+  /*font-family: cursive;*/
+  font-family: "Dancing Script", cursive;
+}
+
+li{
+  color: rgb(30, 200, 0);
+}
+
+p{
+  color: #eab01c;
+  /*font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;*/
+  font-family: "Dancing Script", cursive;
+}
+
+h4{
+  color: rgba(13, 90, 140, 0.5);
+}
+
+/*body{
+  background: url(https://images.unsplash.com/photo-1731839247695-d9b697748a6b?q=80&w=1260&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+} */
+
+div{
+  background: blue;
+  border: orange;
+  border-width: thick;
+  border-style: solid;
+}
+
+span{
+  background: red;
+  color: black;
+}
+
+.firstDiv{
+  color: green;
+}
+
+.secondDiv{
+  background-color: purple;
+}
+
+#singledout{
+  color: red
+}

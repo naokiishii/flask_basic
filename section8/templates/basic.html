@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+  <head>
+    <meta charset='utf-8'>
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to the site, {{my_variable}}!</h1>
+    <h1>{{letters}}, {{letters[0]}}, {{letters[2:]}}</h1>
+    <h1>{{pup_dictionary}}, {{pup_dictionary['pup_name']}}</h1>
+    <h1>mylist: {{my_list}}</h1>
+    <ul>
+      {% for item in my_list %}
+      <li>{{item}}</li>
+      {% endfor %}
+    </ul>
+    <h1>puppies: {{puppies}}</h1>
+    <ul>
+      {% for pup in puppies %}
+      <li>{{pup}}</li>
+      {% endfor %}
+    </ul>
+    {% if 'Rufus' in puppies %}
+      <p>Found you Rufus!</p>
+    {% else %}
+      <p>Hmm... Rufus is not in this list!</p>
+    {% endif %}
+    <h2>Here is a pic of a puppy!</h2>
+    <img src='../static/puppy_pic.jpg' alt=''>
+  </body>
+</html>
